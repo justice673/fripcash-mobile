@@ -1,0 +1,1413 @@
+{
+  "@@locale": "en",
+  "appTitle": "FripCash",
+  "welcomeBuySell": "Buy and sell across Guinea - fashion, home, electronics & more",
+  "trustBenefitNoCommissionLine1": "No",
+  "trustBenefitNoCommissionLine2": "commission",
+  "trustBenefitLocalCustomersLine1": "Customers from",
+  "trustBenefitLocalCustomersLine2": "your city",
+  "trustBenefitCodLine1": "Paid on",
+  "trustBenefitCodLine2": "delivery",
+  "signUpButton": "Sign up for FripCash",
+  "alreadyHaveAccount": "I already have an account",
+  "aboutFripCashPrefix": "About FripCash: ",
+  "ourPlatform": "Our platform",
+  "sellAnItem": "Sell an item",
+  "cancel": "Cancel",
+  "done": "Done",
+  "brand": "Brand",
+  "category": "Category",
+  "condition": "Condition",
+  "sizes": "Sizes",
+  "colours": "Colours",
+  "viewSizeGuide": "View size guide",
+  "openSizeGuide": "Open size guide",
+  "allSizes": "All sizes",
+  "backToHome": "Back to home",
+  "welcomeBack": "Welcome back!",
+  "homeHelloName": "Hello, {name}",
+  "@homeHelloName": {"placeholders": {"name": {"type": "String"}}},
+  "homeWelcomeReady": "Welcome Back,\nReady to Continue",
+  "homeExploreTitle": "Explore",
+  "homeSearchHint": "A dress, rice, a shop...",
+  "homeSearchUniversesHint": "Search across all four universes at once",
+  "homeLocationLabel": "{zone} - {quartier}",
+  "@homeLocationLabel": {
+    "placeholders": {
+      "zone": {"type": "String"},
+      "quartier": {"type": "String"}
+    }
+  },
+  "homeModeSectionTitle": "Fashion",
+  "homeModeSectionSubtitle": "clothes, bags, shoes",
+  "homeCoursesSectionTitle": "Groceries",
+  "homeCoursesSectionSubtitle": "food and home essentials",
+  "homeUniverseSecondeMainSubtitle": "Between individuals",
+  "homeUniverseArticlesNeufsSubtitle": "Shops and merchants",
+  "homeUniverseQuartierSubtitle": "Pickup by code",
+  "homeUniverseEnseignesSubtitle": "City delivery",
+  "homeUniverseArticlesCount": "{count} items",
+  "@homeUniverseArticlesCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "homeUniverseQuartierCount": "{count} in {quartier}",
+  "@homeUniverseQuartierCount": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "quartier": {"type": "String"}
+    }
+  },
+  "homeUniverseEnseignesCount": "{count} near you",
+  "@homeUniverseEnseignesCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "homeNouveautesTitle": "New arrivals",
+  "homeTwoUniversesTitle": "Two universes, never mixed.",
+  "homeTwoUniversesBody": "Fashion and groceries never cross paths — except in search.",
+  "homeBigSaleTitle": "Big Sale",
+  "homeBigSaleOffer": "Up to 50%",
+  "homeBigSaleNow": "Happening Now",
+  "homeSearchHintShort": "Search...",
+  "loginSubtitle": "Sign in to your account to continue.",
+  "phoneNumber": "Phone number",
+  "password": "Password",
+  "forgotPasswordQuestion": "Forgot password?",
+  "yourPassword": "Your password",
+  "signIn": "Sign in",
+  "courierSpaceDemo": "Courier space (demo)",
+  "noAccountPrompt": "Don't have an account? ",
+  "signUp": "Sign up",
+  "joinFripCash": "Join FripCash",
+  "signUpSubtitle": "Three steps and you're off.",
+  "signUpStepAccountTitle": "Role",
+  "signUpStepAccountSubtitle": "Who you are",
+  "signUpStepProfileTitle": "Details",
+  "signUpStepProfileSubtitle": "Your info",
+  "signUpStepLoginTitle": "Account",
+  "signUpStepLoginSubtitle": "Login info",
+  "signUpStepCommerceTitle": "Your business",
+  "signUpStepCommerceSubtitle": "Service area",
+  "signUpStepInfosTitle": "Your info",
+  "signUpStepInfosSubtitle": "Account & shop",
+  "signUpStepSellerTitle": "Seller",
+  "signUpStepSellerSubtitle": "Selling info",
+  "signUpContinue": "Continue",
+  "iSignUpAs": "I sign up as",
+  "shopNameLabel": "Shop name",
+  "nameLabel": "Name",
+  "shopNameHint": "Your shop name",
+  "fullNameHint": "Your full name",
+  "zone": "Zone",
+  "chooseYourZone": "Choose your zone",
+  "detailedAddress": "Detailed address",
+  "addressHint": "Street, neighborhood, landmark",
+  "maxDeliveryDelay": "Maximum delivery delay",
+  "chooseDelay": "Choose a delay",
+  "shopLogo": "Shop logo",
+  "logoAddedPreview": "Logo added (preview)",
+  "addLogo": "Add a logo",
+  "shopDescription": "Shop description",
+  "describeBusiness": "Describe your activity",
+  "choosePassword": "Choose a password",
+  "confirmPassword": "Confirm password",
+  "confirmYourPassword": "Confirm your password",
+  "passwordsDoNotMatch": "Passwords do not match.",
+  "passwordStrengthWeak": "Weak",
+  "passwordStrengthFair": "Fair",
+  "passwordStrengthGood": "Good",
+  "passwordStrengthStrong": "Strong",
+  "passwordStrengthHintMin": "At least {count} characters needed",
+  "@passwordStrengthHintMin": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "passwordStrengthHintOk": "Looks good — keep going",
+  "passwordRuleMinLength": "{count}+ characters",
+  "@passwordRuleMinLength": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "passwordRuleLetter": "A letter",
+  "passwordRuleDigit": "A number",
+  "needHelp": "Need help?",
+  "alreadyHaveAccountPrompt": "Already have an account? ",
+  "buyerRole": "Buyer",
+  "individualSellerRole": "Individual seller",
+  "shopRole": "Shop",
+  "enseigneQuartierRole": "Neighborhood shop",
+  "signUpRoleBuyerSubtitle": "I just want to buy",
+  "signUpRoleSellerSubtitle": "I sell clothes I no longer wear",
+  "signUpRoleSellerFootnote": "my listings go to Second-hand",
+  "signUpRoleShopSubtitle": "I sell new items",
+  "signUpRoleShopFootnote": "my listings go to New items",
+  "commerceLocalRole": "Local business",
+  "signUpRoleCommerceLocalSubtitle": "Grocery, education, small local shops",
+  "signUpRoleCommerceLocalFootnote": "my listings go to Neighborhood shops",
+  "grandeSurfaceRole": "Large specialized retailer",
+  "signUpRoleGrandeSurfaceSubtitle": "Major brands and large companies",
+  "signUpRoleGrandeSurfaceFootnote": "manual validation by our team",
+  "signUpPerimeterTitle": "What area do you serve?",
+  "signUpPerimeterSubtitle": "This one question changes everything: it decides where your shop appears on the home screen.",
+  "signUpPerimeterQuartierTitle": "My neighborhood",
+  "signUpPerimeterQuartierBody": "Grocery, food, corner shop. My customers live nearby and can pick up in person.",
+  "signUpPerimeterVilleTitle": "The whole city",
+  "signUpPerimeterVilleBody": "Store or brand. I deliver across several districts of Conakry.",
+  "signUpPerimeterQuartierHintTitle": "My neighborhood",
+  "signUpPerimeterQuartierHintBody": "One neighborhood to fill in, pickup by code enabled, storefront in Neighborhood shops.",
+  "signUpPerimeterVilleHintTitle": "The whole city",
+  "signUpPerimeterVilleHintBody": "Store address, delivery zones and delays, storefront in Partner brands.",
+  "listingDestinationSecondeMain": "Second-hand",
+  "listingDestinationArticlesNeufs": "New items",
+  "listingDestinationQuartier": "Neighborhood shops",
+  "listingDestinationEnseignes": "Partner brands",
+  "listingPublishedInSection": "Your listing is live in the {section} section.",
+  "@listingPublishedInSection": {
+    "placeholders": {
+      "section": {"type": "String"}
+    }
+  },
+  "addSellerProfileTitle": "Add a seller profile",
+  "addSellerProfileSubtitle": "Keep the same account — no need to sign up again.",
+  "addSellerProfileDestinationHint": "Your listings will appear in Second-hand.",
+  "addSellerProfileConfirm": "Activate seller profile",
+  "addSellerProfileSuccess": "Seller profile activated. You can list from the Sell tab.",
+  "addSellerProfileSettingsSubtitle": "Sell second-hand without creating a new account",
+  "becomeSellerTitle": "Become a seller",
+  "becomeSellerChooseType": "What kind of seller do you want to be?",
+  "becomeSellerStepTypeTitle": "Seller profile",
+  "becomeSellerStepTypeSubtitle": "Choose how you sell",
+  "becomeSellerStepDetailsTitle": "Details",
+  "becomeSellerStepDetailsSubtitle": "Shop & delivery info",
+  "becomeSellerDestinationHint": "Your listings will appear in {section}.",
+  "@becomeSellerDestinationHint": {
+    "placeholders": {
+      "section": {"type": "String"}
+    }
+  },
+  "becomeSellerSuccess": "Seller profile activated. You can list from the Sell tab.",
+  "becomeSellerAccountTile": "Become a seller",
+  "becomeSellerAccountSubtitle": "Same account — pick how you want to sell",
+  "becomeSellerActivate": "Activate seller profile",
+  "sellerPendingVerificationMessage": "Your shop will be visible after our team validates it.",
+  "sellerAccountSection": "Seller profile",
+  "upgradeToShopSubtitle": "Upgrade to a shop, neighborhood store, or partner brand (review may apply).",
+  "upgradeToShopChooseType": "What kind of shop do you want to create?",
+  "sellerVerificationPendingTitle": "Verification pending",
+  "sellerVerificationPendingBody": "Your application is under review. You can publish once approved.",
+  "sellerProfileActiveTitle": "Seller profile active",
+  "becomeSellerRequiredHint": "Activate a seller profile to access this area. Your purchases stay on the same account.",
+  "backToLogin": "Back to login",
+  "forgotPasswordTitle": "Forgot password",
+  "forgotPasswordSubtitle": "Enter your phone number to receive a verification code.",
+  "sendCode": "Send code",
+  "smsCodeInfo": "You will receive an SMS with a 6-digit code.",
+  "passwordUpdatedSuccess": "Password updated successfully.",
+  "back": "Back",
+  "newPasswordTitle": "New password",
+  "newPasswordSubtitle": "Choose a new password for your account.",
+  "newPasswordLabel": "New password",
+  "resetPasswordButton": "Reset password",
+  "accountCreatedSuccess": "Account created successfully. Sign in now.",
+  "newCodeSent": "A new code has been sent.",
+  "verificationTitle": "Verification",
+  "enterCodeSentTo": "Enter the code sent to",
+  "resendCodeIn": "Resend code in",
+  "resendCode": "Resend code",
+  "verify": "Verify",
+  "deviceVerification": "Device verification",
+  "contentAvailableAfterVerification": "Requested content will be available after verification.",
+  "marketingConsentText": "I would like to receive personalized offers and updates from FripCash by email.",
+  "termsPrefix": "By signing up, I confirm that I accept the ",
+  "termsAndConditions": "Terms and Conditions",
+  "termsMiddle": " of FripCash, that I have read the ",
+  "privacyPolicy": "Privacy Policy",
+  "termsSuffix": ", and that I am at least 18 years old.",
+  "sellTitle": "Sell",
+  "sellerDashboardTitle": "Seller dashboard",
+  "sellerDashboardSubtitle": "Orders, offers, stock and sales history.",
+  "publishQuickly": "List your item in just a few minutes.",
+  "sellAsIndividual": "Sell as an individual",
+  "sellAsIndividualSubtitle": "Resell items you no longer use.",
+  "createShop": "Create a shop",
+  "createShopSubtitle": "Create your professional shop and sell across Guinea.",
+  "myListings": "My listings",
+  "manageListingsSubtitle": "Manage your items, stock and prices.",
+  "importExcelCatalog": "Import Excel catalog",
+  "importExcelSubtitle": "Bulk update for shops and brands.",
+  "listingPublishedTitle": "Listing published!",
+  "listingPublishedSubtitleSuffix": "is now visible on FripCash.",
+  "displayPricePrefix": "Displayed price",
+  "publishAnotherItem": "List another item",
+  "add": "Add",
+  "noListings": "No listings",
+  "noListingsSubtitle": "Publish your first item to start selling.",
+  "createListingAction": "Create listing",
+  "outOfStockInactive": "Out of stock - listing inactive",
+  "lowStockPrefix": "Almost out of stock",
+  "remaining": "remaining",
+  "stock": "Stock",
+  "views": "views",
+  "outOfStock": "Out of stock",
+  "editListing": "Edit listing",
+  "editPrice": "Edit price",
+  "addStock": "Add stock",
+  "delete": "Delete",
+  "newNetPrice": "New net price",
+  "amountInGnf": "Amount in GNF",
+  "gnf": "GNF",
+  "save": "Save",
+  "quantityToAdd": "Quantity to add",
+  "deleteListingQuestion": "Delete listing?",
+  "irreversibleAction": "This action cannot be undone.",
+  "listingPreview": "Listing preview",
+  "listingUpdated": "Listing updated.",
+  "addUpTo20Photos": "Add up to 20 photos. ",
+  "seePhotoTips": "See photo tips.",
+  "title": "Title",
+  "titleHint": "e.g. White COS Jumper",
+  "describeYourItem": "Describe your item",
+  "describeItemHint": "e.g. small grey Nike t-shirt, only worn a few times",
+  "size": "Size",
+  "stockQuantity": "Stock quantity",
+  "priceGnf": "Price (GNF)",
+  "preview": "Preview",
+  "publishListing": "Publish listing",
+  "uploadPhotos": "Upload photos",
+  "vintedSizesInfoPrefix": "Vinted uses International / UK sizes as defaults. ",
+  "all": "All",
+  "homeSellerPillIndividuals": "Individuals",
+  "homeSellerPillShops": "Shops",
+  "homeSellerPillEnseignes": "Partner stores",
+  "findABrand": "Find a brand",
+  "noBrandUnbranded": "No brand / Unbranded",
+  "noBrandValue": "No brand",
+  "useCustomBrand": "Use custom brand",
+  "suggestedBrands": "Suggested brands",
+  "chooseUpTo2Colours": "Choose up to 2 colours",
+  "customColour": "Custom colour",
+  "addCustomColour": "Add custom colour",
+  "customColourHint": "e.g. Mint, Wine, Nude",
+  "mensClothingSizeGuide": "Men's clothing size guide",
+  "sizeGuideDescription": "These measurements don't necessarily fit all brands, but you can still use them for reference. For precise measurements, please see an individual item's description."
+  ,"homeNav": "Home"
+  ,"favoritesNav": "Favorites"
+  ,"browseNav": "Explore"
+  ,"browseSearchHint": "Search items or members"
+  ,"browseHeroTitle": "Find your next favorite"
+  ,"browseHeroSubtitle": "Swipe into Conakry's best closets, shops and finds."
+  ,"browseCategoriesHeading": "CATEGORIES"
+  ,"browseFeaturedHint": "Fashion, street & everyday looks"
+  ,"browseCategoryWomen": "Women"
+  ,"browseCategoryMen": "Men"
+  ,"browseCategoryPremium": "Premium picks"
+  ,"browseCategoryKids": "Kids & family"
+  ,"browseCategoryHome": "Home & décor"
+  ,"browseCategoryTech": "Tech & gadgets"
+  ,"browseCategoryBooks": "Books & media"
+  ,"browseCategoryHobbies": "Hobbies & crafts"
+  ,"browseCategorySports": "Sports & outdoors"
+  ,"browseCategoryEmptyTitle": "Nothing here yet"
+  ,"browseCategoryEmptySubtitle": "Check back soon or explore other categories."
+  ,"sellNav": "Sell"
+  ,"messagesNav": "Messages"
+  ,"profileNav": "Profile"
+  ,"popularItemsTitle": "Popular items"
+  ,"popularItemsSubtitle": "Most loved items right now"
+  ,"newArrivalsTitle": "New arrivals"
+  ,"newArrivalsSubtitle": "Latest items added on FripCash"
+  ,"popularShopsTitle": "Popular shops"
+  ,"popularShopsSubtitle": "Trusted professional sellers"
+  ,"showcaseTitle": "Showcase"
+  ,"seeMore": "See more"
+  ,"follow": "Follow"
+  ,"following": "Following"
+  ,"filterTitle": "Filter"
+  ,"filterSort": "Sort by"
+  ,"filterSellerType": "Seller type"
+  ,"filterCondition": "Condition"
+  ,"filterPriceRange": "Price range"
+  ,"filterPriceRangeValue": "{min} - {max} GNF"
+  ,"@filterPriceRangeValue": {"placeholders": {"min": {"type": "String"}, "max": {"type": "String"}}}
+  ,"filterInStockOnly": "In stock only"
+  ,"filterApply": "Apply filters"
+  ,"filterReset": "Reset"
+  ,"sortRecommended": "Recommended"
+  ,"sortPriceLow": "Price: low to high"
+  ,"sortPriceHigh": "Price: high to low"
+  ,"sortNewest": "Newest"
+  ,"sellerNotFound": "Seller not found"
+  ,"reviewsCount": "{count} reviews"
+  ,"@reviewsCount": {"placeholders": {"count": {"type": "int"}}}
+  ,"listingsCount": "{count} items"
+  ,"@listingsCount": {"placeholders": {"count": {"type": "int"}}}
+  ,"partnerBrandsTitle": "Partner brands"
+  ,"partnerBrandsSubtitle": "Top brands - express delivery"
+  ,"enseignesTitle": "Partner stores"
+  ,"enseignesDeliveryTo": "DELIVER TO"
+  ,"enseignesDeliverHereCount": "{count} stores deliver here"
+  ,"@enseignesDeliverHereCount": {"placeholders": {"count": {"type": "int"}}}
+  ,"enseignesChangeLocation": "Change"
+  ,"enseignesCount": "{count} stores"
+  ,"@enseignesCount": {"placeholders": {"count": {"type": "int"}}}
+  ,"enseignesSortDeliveryAsc": "Fastest delivery"
+  ,"enseignesDeliveredIn": "Delivered in {hours} h"
+  ,"@enseignesDeliveredIn": {"placeholders": {"hours": {"type": "int"}}}
+  ,"enseignesTwoFiltersTitle": "Two filters, not one"
+  ,"enseignesTwoFiltersBody": "Sub-category (what they sell) and delivery zone (whether they come to you). Both are set when the store registers."
+  ,"enseignesEmptyForZone": "No partner stores deliver to this area yet. Try another neighborhood."
+  ,"enseigneCategoryGrocery": "Grocery"
+  ,"enseigneCategoryAppliances": "Appliances"
+  ,"enseigneCategoryLighting": "Lighting"
+  ,"enseigneCategoryHome": "Home"
+  ,"enseigneCategoryMode": "Fashion"
+  ,"quartierBoutiquesTitle": "Neighborhood shops"
+  ,"quartierBoutiquesYourNeighborhood": "YOUR NEIGHBORHOOD"
+  ,"quartierBoutiquesChangeNeighborhood": "Change"
+  ,"quartierBoutiquesCount": "{count} shops in {quartier}"
+  ,"@quartierBoutiquesCount": {"placeholders": {"count": {"type": "int"}, "quartier": {"type": "String"}}}
+  ,"quartierBoutiquesSortNearest": "Nearest first"
+  ,"quartierBoutiquesProductCount": "{count} products"
+  ,"@quartierBoutiquesProductCount": {"placeholders": {"count": {"type": "int"}}}
+  ,"quartierBoutiquesWalkTime": "{street} · {minutes} min"
+  ,"@quartierBoutiquesWalkTime": {"placeholders": {"street": {"type": "String"}, "minutes": {"type": "int"}}}
+  ,"quartierBoutiquesPickupByCode": "Pickup by code"
+  ,"quartierBoutiquesOpensAt": "Opens at {hour} h"
+  ,"@quartierBoutiquesOpensAt": {"placeholders": {"hour": {"type": "int"}}}
+  ,"quartierBoutiquesEmpty": "No neighborhood shops in this area yet. Try another neighborhood."
+  ,"quartierBoutiquesReportTitle": "Your shop isn't listed?"
+  ,"quartierBoutiquesReportBody": "Report it — the FripCash team will list it within 48 hours."
+  ,"quartierBoutiquesReportAck": "Thanks! We'll review your report within 48 hours."
+  ,"articlesNeufsTitle": "New items"
+  ,"articlesNeufsSubtitle": "{shopCount} shops · {articleCount} new items"
+  ,"@articlesNeufsSubtitle": {"placeholders": {"shopCount": {"type": "int"}, "articleCount": {"type": "int"}}}
+  ,"articlesNeufsSearchHint": "Shop, brand, item..."
+  ,"articlesNeufsShopCount": "{count} shops for {gender}"
+  ,"@articlesNeufsShopCount": {"placeholders": {"count": {"type": "int"}, "gender": {"type": "String"}}}
+  ,"articlesNeufsSortBestRated": "Best rated"
+  ,"articlesNeufsArticleCount": "{count} items"
+  ,"@articlesNeufsArticleCount": {"placeholders": {"count": {"type": "int"}}}
+  ,"articlesNeufsDeliveredIn": "Delivered in {sla}"
+  ,"@articlesNeufsDeliveredIn": {"placeholders": {"sla": {"type": "String"}}}
+  ,"articlesNeufsEmpty": "No shops match your search."
+  ,"articlesNeufsInfoTitle": "Browse by shop, not by item"
+  ,"articlesNeufsInfoBody": "Each merchant has a full storefront — enter the shop to see their entire new-in-stock catalog."
+  ,"secondeMainTitle": "Second hand"
+  ,"secondeMainSubtitle": "{count} items sold by individuals"
+  ,"@secondeMainSubtitle": {"placeholders": {"count": {"type": "int"}}}
+  ,"secondeMainSearchHint": "Dress, jeans, sneakers..."
+  ,"secondeMainCount": "{count} items for {gender}"
+  ,"@secondeMainCount": {"placeholders": {"count": {"type": "int"}, "gender": {"type": "String"}}}
+  ,"catalogShopSortMostProducts": "Most items"
+  ,"catalogShopSortNameAz": "Name A-Z"
+  ,"secondeMainSortRecent": "Recent"
+  ,"secondeMainEmpty": "No listings match your search."
+  ,"secondeMainIndividualBadge": "Individual"
+  ,"secondeMainInfoTitle": "One filter level visible"
+  ,"secondeMainInfoBody": "Main categories (Women / Men / Kids) stay up front — the rest lives in the menus below."
+  ,"catalogGenderFemme": "Women"
+  ,"catalogGenderHomme": "Men"
+  ,"catalogGenderEnfant": "Kids"
+  ,"homeFooterTagline": "FripCash - Your trusted platform for buying and selling."
+  ,"whatAreYouLookingFor": "What are you looking for?"
+  ,"searchNoResults": "No results match your search"
+  ,"searchResultsTitle": "Search results"
+  ,"searchResultsCount": "{count} result(s)"
+  ,"@searchResultsCount": {"placeholders": {"count": {"type": "int"}}}
+  ,"oneSize": "One size"
+  ,"includedSuffix": "incl."
+  ,"noFavoritesYet": "No favorites yet"
+  ,"noFavoritesSubtitle": "Save items you like to find them here."
+  ,"discoverItemsAction": "Discover items"
+  ,"supportFripCash": "FripCash Support"
+  ,"sellers": "Sellers"
+  ,"noSupportMessages": "No support messages"
+  ,"noSupportMessagesSubtitle": "Contact the FripCash team for any question."
+  ,"noMessages": "No messages"
+  ,"noMessagesSubtitle": "Your conversations with sellers will appear here."
+  ,"enabled": "Enabled"
+  ,"disabled": "Disabled"
+  ,"courierRole": "Courier"
+  ,"adminRole": "Admin"
+  ,"badges": "Badges"
+  ,"myWallet": "My wallet"
+  ,"mySalesAndPurchases": "My sales and purchases"
+  ,"myOffers": "My offers"
+  ,"customization": "Customization"
+  ,"bundleDiscount": "Bundle discount"
+  ,"vacationMode": "Vacation mode"
+  ,"help": "Help"
+  ,"signOut": "Sign out"
+  ,"viewMyProfile": "View my profile"
+  ,"sellYourItems": "Sell your items"
+  ,"sellPromoSubtitle": "Declutter your closet and earn money"
+  ,"addItem": "Add an item"
+  ,"editMyProfile": "Edit my profile"
+  ,"changePassword": "Change password"
+  ,"pushNotifications": "Push notifications"
+  ,"ordersMessagesOffers": "Orders, messages and offers"
+  ,"sellerMode": "Seller mode"
+  ,"sellerModeSubtitle": "Try seller dashboard without changing account"
+  ,"profileUpdated": "Profile updated."
+  ,"phone": "Phone"
+  ,"nameOrUsernameHint": "Your name or username"
+  ,"phoneCannotBeEditedHere": "Phone number cannot be edited here."
+  ,"chooseZone": "Choose a zone"
+  ,"address": "Address"
+  ,"addressHintShort": "Neighborhood, landmark..."
+  ,"passwordUpdatedSimulation": "Password updated (simulation)."
+  ,"currentPassword": "Current password"
+  ,"confirmPasswordShort": "Confirm password"
+  ,"myPublicProfile": "My public profile"
+  ,"profileRatingSummary": "4.8 · 24 reviews"
+  ,"listings": "Listings"
+  ,"noPublicListings": "No public listings."
+  ,"vacationModeDescription": "Temporarily hide your listings. Buyers will not be able to place orders during this period."
+  ,"startDate": "Start"
+  ,"endDate": "End"
+  ,"notSet": "Not set"
+  ,"vacationModeUpdated": "Vacation mode updated."
+  ,"hideListingsOnVacation": "Hide published listings"
+  ,"bundleDiscountDescription": "Offer an automatic discount when a buyer purchases multiple items from your shop."
+  ,"bundleDiscountSimulatedRule": "Discount: -10% from 2 items from the same seller."
+  ,"bundleMinItemsLabel": "Minimum items"
+  ,"bundleMinItemsHelper": "Buyer must take at least this many items from your shop (2–20)."
+  ,"bundleMinItemsInvalid": "Minimum items must be between 2 and 20."
+  ,"bundlePercentLabel": "Discount %"
+  ,"bundlePercentHelper": "Percent off those items at checkout (1–50)."
+  ,"bundlePercentInvalid": "Discount must be between 1% and 50%."
+  ,"bundleRulePreview": "-{percent}% from {minItems} items from your shop."
+  ,"@bundleRulePreview": {
+    "placeholders": {
+      "percent": { "type": "int" },
+      "minItems": { "type": "int" }
+    }
+  }
+  ,"bundleRuleSavedLocal": "Bundle rule saved."
+  ,"badgeFirstSaleTitle": "First sale"
+  ,"badgeFirstSaleDescription": "You sold your first item on FripCash."
+  ,"badgeFastShipperTitle": "Fast shipping"
+  ,"badgeFastShipperDescription": "5 parcels prepared in less than 24h."
+  ,"badgeTopRatedTitle": "5-star seller"
+  ,"badgeTopRatedDescription": "10 reviews with an average rating of 5/5."
+  ,"badgeEcoSellerTitle": "Eco-friendly"
+  ,"badgeEcoSellerDescription": "20 second-hand items sold."
+  ,"purchasesTab": "Purchases"
+  ,"salesTab": "Sales"
+  ,"noPurchases": "No purchases"
+  ,"noSales": "No sales"
+  ,"orderLabel": "Order"
+  ,"deliverWithin": "Deliver within"
+  ,"overdue": "overdue"
+  ,"orderStatusUpdated": "Order status updated"
+  ,"ratingSavedThanks": "Thank you, your review has been saved."
+  ,"orderNotFound": "Order not found"
+  ,"stepLabel": "Step"
+  ,"orderTracking": "Order tracking"
+  ,"items": "Items"
+  ,"sellerRoleGeneric": "Seller"
+  ,"deliveryZone": "Delivery zone"
+  ,"awaitingAssignment": "Awaiting assignment"
+  ,"parcelReady": "Parcel ready"
+  ,"parcelDelivered": "Parcel delivered"
+  ,"rateSeller": "Rate seller"
+  ,"thanksForReview": "Thanks for your review!"
+  ,"experienceWithSellerQuestion": "How was your experience with"
+  ,"commentOptional": "Comment (optional)"
+  ,"submitReview": "Submit my review"
+  ,"deliveryAddressTitle": "Delivery address"
+  ,"fullName": "Full name"
+  ,"yourName": "Your name"
+  ,"phoneNumberHint224": "+224 6XX XXX XXX"
+  ,"neighborhood": "Neighborhood"
+  ,"chooseNeighborhood": "Choose your neighborhood"
+  ,"streetSectorCommune": "Street, sector, commune"
+  ,"landmark": "Landmark"
+  ,"landmarkHint": "Ex: near market, blue building"
+  ,"continueAction": "Continue"
+  ,"serviceFeesTitle": "Service fees (8%)"
+  ,"serviceFeesDescription": "Displayed price already includes service fees: 1% for Orange Money and 7% for FripCash. No hidden fees at payment."
+  ,"summaryTitle": "Summary"
+  ,"buyerProtectionIncluded": "Buyer protection included for this purchase."
+  ,"subtotal": "Subtotal"
+  ,"deliveryFees": "Delivery fees"
+  ,"serviceFeesIncluded": "Service fees included"
+  ,"payWithOrangeMoney": "Pay with Orange Money"
+  ,"qtyShort": "Qty"
+  ,"orderConfirmedTitle": "Order confirmed!"
+  ,"orderConfirmedSubtitle": "Order confirmed. Stay reachable, the courier will contact you."
+  ,"estimatedDelivery24to48h": "Estimated delivery within 24-48h"
+  ,"orderTrackingSoon": "Order tracking available soon."
+  ,"trackMyOrder": "Track my order"
+  ,"withdrawToOrangeMoney": "Withdraw to Orange Money"
+  ,"confirmWithdrawalPrefix": "Confirm withdrawal of"
+  ,"confirmWithdrawalSuffix": "to your Orange Money account?"
+  ,"confirm": "Confirm"
+  ,"withdrawalInitiatedSimulation": "Withdrawal initiated (simulation)."
+  ,"availableBalance": "Available balance"
+  ,"walletEscrowInfo": "Sales funds remain locked until the \"Parcel delivered\" step. They are then released to your wallet."
+  ,"history": "History"
+  ,"noTransactionsYet": "No transactions yet."
+  ,"notificationsTitle": "Notifications"
+  ,"markAllRead": "Mark all as read"
+  ,"noNotifications": "No notifications"
+  ,"missingAddressRestartOrder": "Missing address. Please restart checkout."
+  ,"paymentCancelled": "Payment cancelled."
+  ,"orangeMoney": "Orange Money"
+  ,"securePayment": "Secure payment"
+  ,"orangeMoneyNumber": "Orange Money number"
+  ,"paymentConfirmationPrompt": "You will receive a confirmation request on your phone."
+  ,"confirmPayment": "Confirm payment"
+  ,"shopOnboardingSubtitle": "Present your shop to buyers across Guinea."
+  ,"shopNameExample": "e.g. Mode Plus GN"
+  ,"shopDescriptionHint": "Your specialty, your commitments..."
+  ,"preparationDelay": "Preparation delay"
+  ,"sellerDeliverySla": "Seller delivery SLA"
+  ,"createMyShop": "Create my shop"
+  ,"dashboardTitle": "Dashboard"
+  ,"myShop": "My shop"
+  ,"salesToday": "Today's sales"
+  ,"offersToHandle": "Offers to handle"
+  ,"shopVisits": "Shop visits"
+  ,"quickActions": "Quick actions"
+  ,"newListing": "New listing"
+  ,"viewOrders": "View orders"
+  ,"pending": "pending"
+  ,"toHandle": "To handle"
+  ,"lastImport": "Last import"
+  ,"noRecentImport": "No recent import"
+  ,"itemsLowStockAlert": "item(s) low stock alert"
+  ,"adjust": "Adjust"
+  ,"salesHistory": "Sales history"
+  ,"noDeliveredSalesYet": "No delivered sales yet."
+  ,"sellerDemoModeBanner": "Seller mode (demo) - sample data"
+  ,"clientPrice": "Client price"
+  ,"yourNetPrice": "Your net price"
+  ,"fripCashCommission": "FripCash commission"
+  ,"sellerOrdersTitle": "Seller orders"
+  ,"noOrdersInCategory": "No orders in this category"
+  ,"clientLabel": "Client"
+  ,"parcelMarkedReady": "Parcel marked as ready"
+  ,"receivedOffers": "Received offers"
+  ,"accepted": "Accepted"
+  ,"noPendingOffers": "No pending offers"
+  ,"noAcceptedOffers": "No accepted offers"
+  ,"offerLabel": "Offer"
+  ,"offerRefused": "Offer refused"
+  ,"refuse": "Refuse"
+  ,"offerAcceptedBuyerNotified": "Offer accepted - buyer notified"
+  ,"accept": "Accept"
+  ,"excelImportTitle": "Excel import"
+  ,"excelImportSubtitle": "Import your product catalog in .xlsx format to update stock and prices in bulk."
+  ,"excelImportAwaitingBackend": "Download the template, then import your .xlsx file."
+  ,"excelImportSuccess": "Import done: {imported} created, {updated} updated, {failed} failed."
+  ,"@excelImportSuccess": {
+    "placeholders": {
+      "imported": {"type": "int"},
+      "updated": {"type": "int"},
+      "failed": {"type": "int"}
+    }
+  }
+  ,"excelTemplateSaved": "Template saved: {path}"
+  ,"@excelTemplateSaved": {
+    "placeholders": {
+      "path": {"type": "String"}
+    }
+  }
+  ,"excelLastImport": "Last import: {label}"
+  ,"@excelLastImport": {
+    "placeholders": {
+      "label": {"type": "String"}
+    }
+  }
+  ,"noFileSelected": "No file selected"
+  ,"templateDownloadedSimulation": "Template downloaded."
+  ,"downloadExcelTemplate": "Download Excel template"
+  ,"dragOrSelectFile": "Drag your file or select it"
+  ,"importInProgress": "Import in progress..."
+  ,"chooseFile": "Choose a file"
+  ,"rowsUpdatedSuccess": "Rows updated successfully."
+  ,"previewSimulation": "Preview"
+  ,"noOffersYet": "You haven't made any offer yet."
+  ,"noOffersSubtitle": "Find an item you like and tap Make an offer on the product page."
+  ,"priceLabel": "Price"
+  ,"helpSubtitle": "Find a quick answer or contact our support team."
+  ,"faqTitle": "Frequently asked questions"
+  ,"contactUsTitle": "Contact us"
+  ,"contactSupport": "Contact support"
+  ,"supportOpeningSoon": "Support opening soon."
+  ,"conversationNotFound": "Conversation not found"
+  ,"messagingUnavailableForBrand": "Messaging is unavailable for this brand"
+  ,"askSupportQuestion": "Ask your question to FripCash support."
+  ,"sendMessageToSeller": "Send a message to the seller."
+  ,"writeMessageHint": "Write a message..."
+  ,"courierSpaceTitle": "Courier space"
+  ,"courierLoginSubtitle": "Demo login - missions and FripCash deliveries"
+  ,"fripCashCourier": "FripCash Courier"
+  ,"active": "Active"
+  ,"unavailableShort": "Unavailable"
+  ,"courierUnavailableBanner": "You are unavailable - no new mission will be assigned to you."
+  ,"missions": "Missions"
+  ,"earnings": "Earnings"
+  ,"courierDeliveryHistory": "Delivery history"
+  ,"courierHistorySubtitle": "All completed rides on your account."
+  ,"courierTotalDeliveries": "Total deliveries"
+  ,"courierTotalEarned": "Total earned"
+  ,"noDeliveryHistoryYet": "No completed deliveries yet."
+  ,"courierThisWeek": "This week"
+  ,"courierPaidToWallet": "Paid to your FripCash wallet"
+  ,"courierPayoutDetails": "Payout details"
+  ,"fripCashWallet": "FripCash Wallet"
+  ,"courierWeeklyGoalTitle": "Set a weekly earnings goal"
+  ,"courierWeeklyGoalSubtitle": "Stay motivated and track your progress each week."
+  ,"courierGetStarted": "Get started"
+  ,"courierEarningsHistory": "Earnings history"
+  ,"courierViewAllHistory": "View all"
+  ,"courierWeekCurrent": "This week"
+  ,"courierWeekJun29Jul5": "Jun 29 - Jul 5"
+  ,"courierWeekJun8Jun14": "Jun 8 - Jun 14"
+  ,"courierWeekMay18May24": "May 18 - May 24"
+  ,"courierWeekApr27May3": "Apr 27 - May 3"
+  ,"courierWeekApr6Apr12": "Apr 6 - Apr 12"
+  ,"courierProfileTitle": "My profile"
+  ,"courierPersonalInfo": "Personal information"
+  ,"courierVehicleInfo": "Vehicle information"
+  ,"courierSubmittedDocuments": "Submitted documents"
+  ,"courierDocumentsSubtitle": "Documents you submitted during registration."
+  ,"courierVerified": "Verified"
+  ,"courierIdLabel": "Courier ID"
+  ,"courierVehicleType": "Vehicle type"
+  ,"courierVehicleMotorcycle": "Motorcycle"
+  ,"courierPlateNumber": "Plate number"
+  ,"courierMemberSince": "Member since"
+  ,"courierDocNationalId": "National ID"
+  ,"courierDocDriversLicense": "Driver's license"
+  ,"courierDocVehicleRegistration": "Vehicle registration"
+  ,"courierDocInsurance": "Insurance certificate"
+  ,"courierDocProfilePhoto": "Profile photo"
+  ,"courierDocStatusApproved": "Approved"
+  ,"courierDocStatusPending": "Pending review"
+  ,"courierDocStatusRejected": "Rejected"
+  ,"courierSubmittedOn": "Submitted on {date}"
+  ,"courierViewDocument": "View"
+  ,"inProgress": "In progress"
+  ,"completed": "Completed"
+  ,"courierFilterAll": "All"
+  ,"courierFilterActive": "Active"
+  ,"courierSearchMissionsHint": "Search mission"
+  ,"courierDeliverTo": "Deliver to"
+  ,"courierPickupZone": "Pickup"
+  ,"courierDeliveryZone": "Delivery"
+  ,"courierDeliveryFee": "Fee"
+  ,"courierShippedBy": "Shipped by"
+  ,"courierExpectedOn": "Expected on"
+  ,"courierStatusHeroCollect": "Collect the parcel from the seller"
+  ,"courierStatusHeroDeliver": "Deliver the parcel to the buyer"
+  ,"courierStatusHeroDone": "This mission is complete"
+  ,"courierSenderDetails": "Sender details"
+  ,"courierRecipientDetails": "Recipient details"
+  ,"courierPackageDetails": "Package details"
+  ,"courierMyMissions": "My missions"
+  ,"courierWelcomeBack": "Welcome back"
+  ,"courierWelcomeSubtitle": "Ready for today's deliveries"
+  ,"courierHelloName": "Hello, {name}"
+  ,"@courierHelloName": {"placeholders": {"name": {"type": "String"}}}
+  ,"courierBannerSubtitle": "Ready for today's deliveries"
+  ,"courierTodayEarnings": "Today's earnings"
+  ,"courierActiveCount": "{count} active"
+  ,"@courierActiveCount": {"placeholders": {"count": {"type": "int"}}}
+  ,"courierQuantity": "Quantity"
+  ,"courierDistanceLabel": "distance"
+  ,"courierTimeLeftLabel": "Time left"
+  ,"courierArrivalLabel": "Arrival"
+  ,"courierDeliveryAddress": "Delivery address"
+  ,"courierCustomer": "Customer"
+  ,"courierOrderCost": "Order cost"
+  ,"courierCreated": "Created"
+  ,"courierTypeOfOrder": "Type of order"
+  ,"courierPaymentMethod": "Payment method"
+  ,"courierPaymentStatus": "Status"
+  ,"courierTypeOwnTerms": "FripCash delivery"
+  ,"courierPaymentPaid": "Paid"
+  ,"courierChatWithSupport": "Chat with support"
+  ,"courierSlideToCollect": "Slide to confirm pickup"
+  ,"courierSlideToDeliver": "Slide to confirm the delivery"
+  ,"courierMockDistance": "4.2 km"
+  ,"courierMockTimeLeft": "18 min"
+  ,"courierMockArrival": "17:30"
+  ,"courierMockWindow": "16:00 – 18:00"
+  ,"noActiveMissions": "No active mission"
+  ,"enableAvailabilityForMissions": "Enable availability to receive missions"
+  ,"noCompletedMissions": "No completed mission"
+  ,"newMission": "New mission"
+  ,"pickup": "Pickup"
+  ,"delivery": "Delivery"
+  ,"callLabel": "Call"
+  ,"demoLabel": "demo"
+  ,"transferToAnotherCourier": "Transfer to another courier"
+  ,"availableCouriers": "Available couriers"
+  ,"missionTransferredTo": "Mission transferred to"
+  ,"noOtherCourierInZone": "No other courier in this zone."
+  ,"missionNotFound": "Mission not found"
+  ,"deliveryConfirmed": "Delivery confirmed"
+  ,"callAction": "Call"
+  ,"earningsToday": "Today's earnings"
+  ,"ridesToday": "ride(s) today"
+  ,"todaysRides": "Today's rides"
+  ,"noRideCompletedToday": "No ride completed today."
+  ,"toPrepare": "To prepare"
+  ,"ready": "Ready"
+  ,"delivered": "Delivered"
+  ,"total": "Total"
+  ,"otherZone": "Other zone"
+  ,"parcelCollected": "Parcel collected"
+  ,"share": "Share"
+  ,"shareLinkSoon": "Share link coming soon."
+  ,"shareListingSubtitle": "Copy listing link"
+  ,"shareShopSubtitle": "Copy shop link"
+  ,"copyShareLink": "Copy link"
+  ,"shareLinkCopied": "Link copied to clipboard."
+  ,"copyWhatsAppMessage": "WhatsApp message"
+  ,"copyWhatsAppMessageHint": "Title + link ready to paste"
+  ,"whatsAppMessageCopied": "Message copied — paste it in WhatsApp."
+  ,"reportListing": "Report listing"
+  ,"reportSent": "Report sent."
+  ,"outOfStockDetailBanner": "Out of stock - this item is no longer available."
+  ,"acceptedPriceLabel": "Accepted price"
+  ,"buyerProtection": "Buyer protection"
+  ,"availableStock": "Available stock"
+  ,"description": "Description"
+  ,"showLess": "less"
+  ,"showMore": "... more"
+  ,"askAction": "Ask"
+  ,"reviews": "Reviews"
+  ,"buyerProtectionFeesTitle": "Buyer Protection fee"
+  ,"buyerProtectionFeesDescription": "For any purchase via \"Buy\", fees apply to cover Buyer Protection and the refund policy."
+  ,"fromLabel": "from"
+  ,"memberItemsTab": "Member items"
+  ,"similarItemsTab": "Similar items"
+  ,"bundleBuyTitle": "Buy a bundle"
+  ,"bundleBuySubtitle": "Save on shipping"
+  ,"createBundle": "Create bundle"
+  ,"makeOfferAction": "Make an offer"
+  ,"buyAction": "Buy"
+  ,"unavailable": "Unavailable"
+  ,"phoneNumberHintLocal": "6XX XXX XXX"
+  ,"myCart": "My cart"
+  ,"removeOutOfStockToContinue": "Remove out-of-stock items to continue."
+  ,"emptyCartTitle": "Your cart is empty"
+  ,"emptyCartSubtitle": "Browse items and find what you love!"
+  ,"estimatedDeliveryFees": "Delivery fees (estimated)"
+  ,"placeOrder": "Place order"
+  ,"offerMustBeLower": "Enter an amount lower than the displayed price."
+  ,"offerSentToSeller": "Offer sent to seller."
+  ,"yourOfferGnf": "Your offer (GNF)"
+  ,"sendOffer": "Send offer"
+  ,"sellerOnlyAreaTitle": "Seller-only area"
+  ,"enableSellerModeInCustomization": "Activate a seller profile from Account or Settings."
+  ,"adjustStocksTitle": "Adjust stock"
+  ,"itemsInAlertOrOutOfStock": "Items in alert or out of stock"
+  ,"noItemInStockAlert": "No item in stock alert."
+  ,"close": "Close"
+  ,"partnerBrandLabel": "Partner brand"
+  ,"orderStatusOrdered": "Order confirmed"
+  ,"orderStatusPaid": "Payment confirmed"
+  ,"orderStatusSellerNotified": "Seller notified"
+  ,"orderStatusPreparing": "Preparing"
+  ,"orderStatusReadyForPickup": "Parcel ready"
+  ,"orderStatusCourierAssigned": "Courier assigned"
+  ,"orderStatusCollected": "Parcel collected"
+  ,"orderStatusInTransit": "In transit"
+  ,"orderStatusDelivered": "Parcel delivered"
+  ,"orderStatusFundsReleased": "Seller payment released"
+  ,"orderStatusFeedbackPending": "To review"
+  ,"courierStepToCollect": "To collect"
+  ,"courierStepInTransit": "In transit"
+  ,"categoryMode": "Fashion & Accessories"
+  ,"categoryShoes": "Shoes"
+  ,"categoryBeauty": "Beauty & Cosmetics"
+  ,"categoryBaby": "Baby & Maternity"
+  ,"categoryGrocery": "Grocery & Breakfast"
+  ,"categoryHome": "Home & Decor"
+  ,"categoryElectronics": "Electronics - Appliances"
+  ,"categorySecondhand": "Second hand"
+  ,"categoryElectronicsShort": "Electronics"
+  ,"categoryBeautyShort": "Beauty"
+  ,"categoryGroceryShort": "Grocery"
+  ,"subcategoryLabel": "Subcategory"
+  ,"subcategoryWomen": "Women"
+  ,"subcategoryMen": "Men"
+  ,"subcategoryKids": "Children"
+  ,"subcategoryAccessories": "Accessories"
+  ,"subcategoryPhones": "Phones & tablets"
+  ,"subcategoryTvs": "TVs"
+  ,"subcategoryComputers": "Computers"
+  ,"subcategoryAppliances": "Home appliances"
+  ,"subcategoryBabyClothes": "Baby clothes"
+  ,"subcategoryMaternity": "Maternity"
+  ,"subcategoryBabyGear": "Baby gear"
+  ,"subcategoryFurniture": "Furniture"
+  ,"subcategoryDecor": "Decor"
+  ,"subcategoryKitchen": "Kitchen"
+  ,"subcategoryOther": "Other"
+  ,"sizeScreenInches": "Screen size"
+  ,"sizeStorage": "Storage"
+  ,"sizeShoeEu": "Shoe size (EU)"
+  ,"sizeAge": "Age / size"
+  ,"selectSubcategoryFirst": "Select a subcategory first"
+  ,"brandCatalogHint": "Brands are managed by FripCash. Pick one from the list, or type a custom brand if yours is missing."
+  ,"platformBrands": "Platform brands"
+  ,"faqCreateAccountQ": "How do I create an account?"
+  ,"faqCreateAccountA": "Tap \"Sign up\", enter your phone number, choose a password, accept the terms, then confirm the SMS code."
+  ,"faqOtpNotReceivedQ": "I did not receive the OTP code"
+  ,"faqOtpNotReceivedA": "Check that your number is correct and you have network. Wait 60 seconds then tap \"Resend code\". If the issue persists, contact support."
+  ,"faqForgotPasswordQ": "Forgot password?"
+  ,"faqForgotPasswordA": "On the login screen, tap \"Forgot password?\", enter your number, validate the OTP code and set a new password."
+  ,"faqAccountBlockedQ": "Why is my account blocked?"
+  ,"faqAccountBlockedA": "An account may be temporarily suspended for suspicious activity or rule violations. Contact support for details."
+  ,"faqDeliveryTimesQ": "What are the delivery times?"
+  ,"faqDeliveryTimesA": "Sellers choose a maximum delay (24h to 1 week for shops). Partner brands offer express delivery (2h or 4h)."
+  ,"faqCommissionQ": "How does commission work?"
+  ,"faqCommissionA": "FripCash applies 8% on the seller net price (1% for Orange Money and 7% for the platform). The displayed price already includes these fees."
+  ,"faqOrangeMoneyQ": "Can I pay with Orange Money?"
+  ,"faqOrangeMoneyA": "Yes, all purchases are made in the app via Orange Money. Payment is secured before the parcel is sent."
+  ,"emailContact": "Email"
+  ,"phoneContact": "Phone"
+  ,"whatsappContact": "WhatsApp"
+  ,"responseWithin24h": "Response within 24h"
+  ,"weekdayHours": "Mon – Fri, 8am – 6pm"
+  ,"fastAssistance": "Fast assistance"
+  ,"skipTutorial": "Skip"
+  ,"tourSearchTitle": "Search"
+  ,"tourSearchDescription": "Find items, sellers or shops in a snap."
+  ,"tourNotificationsTitle": "Notifications"
+  ,"tourNotificationsDescription": "Track your orders, messages and important alerts here."
+  ,"tourCartTitle": "Cart"
+  ,"tourCartDescription": "Review and confirm your purchases before paying."
+  ,"tourCategoriesTitle": "Categories"
+  ,"tourCategoriesDescription": "Filter by item type — thrift, shops, partner brands…"
+  ,"tourHomeTitle": "Home"
+  ,"tourHomeDescription": "Discover trending items and new arrivals."
+  ,"tourFavoritesTitle": "Favorites"
+  ,"tourFavoritesDescription": "Find the items you saved."
+  ,"tourBrowseTitle": "Browse"
+  ,"tourBrowseDescription": "Explore categories and discover items by type."
+  ,"tourSellTitle": "Sell"
+  ,"tourSellDescription": "List an item or manage your seller space."
+  ,"tourMessagesTitle": "Messages"
+  ,"tourMessagesDescription": "Chat with buyers, sellers and couriers."
+  ,"tourProfileTitle": "Profile"
+  ,"tourProfileDescription": "Settings, orders and account information."
+  ,"greetingWithName": "Hi, {name}"
+  ,"@greetingWithName": {"placeholders": {"name": {"type": "String"}}}
+  ,"greetingDefault": "Hi!"
+  ,"joinFripCashTodayFree": "Join FripCash today for free"
+  ,"joinAction": "Join"
+  ,"promoFlashTitle": "Flash Sale"
+  ,"promoFlashSubtitle": "Choose Your Discount"
+  ,"promoFlashOffer": "40-50% off"
+  ,"promoFlashCta": "See all items"
+  ,"flashSaleAll": "All"
+  ,"flashSaleDiscountLabel": "{percent}% Discount"
+  ,"@flashSaleDiscountLabel": {"placeholders": {"percent": {"type": "int"}}}
+  ,"flashSaleEndsIn": "Ends in"
+  ,"promoNewTitle": "New arrivals"
+  ,"promoNewSubtitle": "Latest items added this week"
+  ,"promoNewOffer": "From 5,000 F"
+  ,"promoNewCta": "Discover new arrivals"
+  ,"promoWomenTitle": "Women's fashion"
+  ,"promoWomenSubtitle": "Dresses, bags and trendy accessories"
+  ,"promoWomenOffer": "Up to -30%"
+  ,"promoWomenCta": "See the collection"
+  ,"tutorialsTitle": "Tutorials"
+  ,"tutorialsSubtitle": "Learn how to sell on FripCash"
+  ,"tutorialSellIndividual": "Sell as an individual"
+  ,"tutorialCreateShop": "Create a shop"
+  ,"tutorialBecomePartner": "Become a FripCash partner"
+  ,"videoDuration2min": "Video · 2 min"
+  ,"videoDuration3min": "Video · 3 min"
+  ,"textGuideLabel": "Text guide"
+  ,"contentComingSoon": "{title} — coming soon."
+  ,"@contentComingSoon": {"placeholders": {"title": {"type": "String"}}}
+  ,"supportFaqOrderWhere": "Where is my order?"
+  ,"supportFaqPaymentIssue": "Orange Money payment issue"
+  ,"supportFaqCommissionFees": "Commission and service fees"
+  ,"supportFaqContactCourier": "Contact a courier"
+  ,"chatEmptyMessage": "Write a message."
+  ,"chatBlockedMessage": "This message is not allowed. Exchanges must stay on FripCash."
+  ,"examplePrefix": "Ex:"
+  ,"exploreCategoriesTitle": "Explore categories"
+  ,"homeCategoriesTitle": "Categories"
+  ,"recentlyAddedTitle": "Recently added"
+  ,"sponsoredSectionTitle": "Featured promotions"
+  ,"sponsoredBadge": "Promo"
+  ,"viewProduct": "View product"
+  ,"shopNow": "Shop now"
+  ,"homeDiscountsPromoteCta": "Promote a listing"
+  ,"homeDiscountsPromoteHint": "Chat with FripCash admin to arrange a featured discount. Payment is handled off-platform; admin publishes the promo here."
+  ,"homeDiscountsEmpty": "No promotions yet. Contact admin to feature your discount."
+  ,"viewShop": "View shop"
+  ,"addToCart": "Add to cart"
+  ,"addedToCart": "Added to cart"
+  ,"viewAll": "View all"
+  ,"recommendedForYou": "Recommended for you"
+  ,"homeCtaTitle": "Ready to clear out your closet?"
+  ,"homeCtaSubtitle": "Join thousands of sellers on FripCash. It's free, fast and secure."
+  ,"homeCtaButton": "Start selling"
+  ,"offerStatusPending": "Pending"
+  ,"offerStatusRefused": "Refused"
+  ,"partnerDeliveryWithin": "Delivery within {sla}"
+  ,"@partnerDeliveryWithin": {"placeholders": {"sla": {"type": "String"}}}
+  ,"sellerDeliversWithin": "Delivers within {sla}"
+  ,"@sellerDeliversWithin": {"placeholders": {"sla": {"type": "String"}}}
+  ,"shippingFeesCalculatedAtCheckout": "Shipping fees are calculated at checkout."
+  ,"notifPackageReadyTitle": "Package ready for pickup"
+  ,"notifOrderDeliveredTitle": "Your order has been delivered"
+  ,"notifFundsReleasedTitle": "Seller payment unlocked"
+  ,"notifGiveFeedbackTitle": "Leave your review"
+  ,"notifOrderUpdateTitle": "Order update"
+  ,"notifStayReachableBody": "Stay reachable, the courier will contact you."
+  ,"notifCourierCanPickupBody": "A courier can pick up the package from the seller."
+  ,"notifRateSellerBody": "Thank you for rating your seller."
+  ,"notifFundsCreditedBody": "Funds have been credited to the seller's wallet."
+  ,"notifHowWasExperienceBody": "How was your experience?"
+  ,"notifJustNow": "Just now"
+  ,"notifOfferAcceptedTitle": "Offer accepted"
+  ,"notifOfferRefusedTitle": "Offer refused"
+  ,"notifOfferAcceptedBody": "Your offer on \"{productTitle}\" was accepted at {price} GNF."
+  ,"@notifOfferAcceptedBody": {"placeholders": {"productTitle": {"type": "String"}, "price": {"type": "String"}}}
+  ,"notifOfferRefusedBody": "Your offer on \"{productTitle}\" was refused."
+  ,"@notifOfferRefusedBody": {"placeholders": {"productTitle": {"type": "String"}}}
+  ,"commissionPercent": "Commission {percent} %"
+  ,"@commissionPercent": {"placeholders": {"percent": {"type": "String"}}}
+  ,"shopPreparationSla": "Ready within {sla} — shown on your shop profile"
+  ,"@shopPreparationSla": {"placeholders": {"sla": {"type": "String"}}}
+  ,"mockConversionRate": "Mock conversion rate: 4.2%"
+  ,"orderNumberLabel": "No. {id}"
+  ,"@orderNumberLabel": {"placeholders": {"id": {"type": "String"}}}
+  ,"orderItemsSummary": "{count} item(s) · {price} GNF"
+  ,"@orderItemsSummary": {"placeholders": {"count": {"type": "int"}, "price": {"type": "String"}}}
+  ,"conditionNewWithTag": "New with tags"
+  ,"conditionNewWithTagDescription": "Brand new item with tags."
+  ,"conditionNewWithoutTag": "New without tags"
+  ,"conditionNewWithoutTagDescription": "Brand new item without tags."
+  ,"conditionVeryGood": "Very good condition"
+  ,"conditionVeryGoodDescription": "Worn very little, in very good condition."
+  ,"conditionGood": "Good condition"
+  ,"conditionGoodDescription": "Minor signs of wear are possible."
+  ,"conditionSatisfactory": "Fair"
+  ,"conditionSatisfactoryDescription": "Frequently used, visible wear."
+  ,"notifHoursAgo": "{hours}h ago"
+  ,"@notifHoursAgo": {"placeholders": {"hours": {"type": "int"}}}
+  ,"notifYesterday": "Yesterday"
+  ,"notifNewOrderReceivedTitle": "New order received"
+  ,"notifPrepareParcelBody": "Prepare your parcel then tap \"Parcel ready\" on the received order."
+  ,"notifPickupParcelOrderBody": "Pick up the parcel at the seller - order #{orderId}."
+  ,"@notifPickupParcelOrderBody": {"placeholders": {"orderId": {"type": "String"}}}
+  ,"notifSlaReminderLateTitle": "SLA reminder - delayed delivery"
+  ,"notifSlaReminderLateBody": "Order #{orderId} exceeds the {sla} delay. Please prepare the parcel."
+  ,"@notifSlaReminderLateBody": {"placeholders": {"orderId": {"type": "String"}, "sla": {"type": "String"}}}
+  ,"timeToday": "Today"
+  ,"timeYesterday": "Yesterday"
+  ,"timeDaysAgo": "{count} day(s) ago"
+  ,"@timeDaysAgo": {"placeholders": {"count": {"type": "int"}}}
+  ,"timeWeeksAgo": "{count} week(s) ago"
+  ,"@timeWeeksAgo": {"placeholders": {"count": {"type": "int"}}}
+  ,"onboardingPrivacyTitle": "Your privacy preferences"
+  ,"onboardingPrivacyBody1": "We may process information that you actively provide when using our services, such as your account details, listings and messages."
+  ,"onboardingPrivacyBody2Prefix": "We use cookies and similar technologies to improve your experience. See our "
+  ,"onboardingPrivacyBody2Suffix": " for more details."
+  ,"cookiePolicy": "Cookie policy"
+  ,"onboardingDataPurposesTitle": "We process data for the following purposes:"
+  ,"onboardingDataPurposeSecurity": "Provide a safe and secure service"
+  ,"onboardingDataPurposeAnalytics": "Analyse user activity and run analytics"
+  ,"onboardingDataPurposeMessaging": "Send personalised messages related to our services"
+  ,"acceptAll": "Accept all"
+  ,"rejectAll": "Reject all"
+  ,"manageCookies": "Manage cookies"
+  ,"onboardingSlide1Title": "Turn closets into cash"
+  ,"onboardingSlide1Subtitle": "Sell the clothes you no longer wear to buyers across Guinea."
+  ,"onboardingSlide2Title": "Selling is free"
+  ,"onboardingSlide2Subtitle": "No listing fees. Keep more of what you earn on every sale."
+  ,"onboardingSlide3Title": "Delivered to your door"
+  ,"onboardingSlide3Subtitle": "FripCash couriers bring your finds across Guinea — fast and reliable."
+  ,"onboardingSlide4Title": "Welcome to FripCash"
+  ,"onboardingSlide4Subtitle": "Buy, sell and discover fashion, home and more in one place."
+  ,"onboardingGetStarted": "Get started"
+  ,"listAnItem": "List an item"
+  ,"@courierSubmittedOn": {"placeholders": {"date": {"type": "String"}}}
+  ,"shopTypeLabel": "Shop type"
+  ,"shopKindProximite": "Neighborhood shop"
+  ,"shopKindProximiteSubtitle": "Grocery-style store — 5% commission, pickup codes, no FripCash courier"
+  ,"shopKindStandard": "Classic boutique"
+  ,"shopKindStandardSubtitle": "Fashion & general shop — 8% commission with FripCash delivery"
+  ,"shopCategoryLabel": "Shop category"
+  ,"chooseShopCategory": "Choose a category"
+  ,"shopAddressHint": "Street, neighborhood, landmark"
+  ,"proximitySellSubtitle": "Add products via Excel, the FripCash library, or manually"
+  ,"addFromLibrary": "FripCash library"
+  ,"addFromLibrarySubtitle": "Pick staples, set your net price and stock"
+  ,"addManually": "Add manually"
+  ,"addManuallySubtitle": "Create a listing for items not in the library"
+  ,"productLibraryTitle": "Product library"
+  ,"searchLibraryHint": "Search products…"
+  ,"libraryCommissionHint": "Buyer price includes {percent}% service fees"
+  ,"@libraryCommissionHint": {"placeholders": {"percent": {"type": "String"}}}
+  ,"netPriceLabel": "Your net price (GNF)"
+  ,"stockLabel": "Stock"
+  ,"availableToggle": "Available"
+  ,"availableToggleHint": "Mark as in stock without a fixed quantity"
+  ,"publishSelectedItems": "Publish {count} item(s)"
+  ,"@publishSelectedItems": {"placeholders": {"count": {"type": "int"}}}
+  ,"libraryItemsPublished": "{count} product(s) published"
+  ,"@libraryItemsPublished": {"placeholders": {"count": {"type": "int"}}}
+  ,"mixedCartBlocked": "You cannot mix neighborhood-shop items with courier delivery items in one checkout. Please checkout separately."
+  ,"fulfillmentTitle": "Pickup or local delivery"
+  ,"fulfillmentModeLabel": "Fulfillment"
+  ,"fulfillmentPickup": "In-store pickup"
+  ,"fulfillmentPickupSubtitle": "Collect at the shop with your order code — free"
+  ,"fulfillmentShopLocal": "Shop local delivery"
+  ,"fulfillmentShopLocalSubtitle": "The merchant delivers nearby — free, share your address"
+  ,"freeDeliveryLabel": "Free"
+  ,"serviceFeesTitleProximity": "Service fees (5%)"
+  ,"serviceFeesDescriptionProximity": "Displayed price already includes 5% FripCash service fees for neighborhood shops. No hidden fees at payment."
+  ,"orderConfirmedProximitySubtitle": "Show this code to the shop to collect your order or confirm delivery."
+  ,"pickupCodeLabel": "Pickup code"
+  ,"pickupCodeHintPickup": "Present this code at the shop to pick up your order."
+  ,"pickupCodeHintDelivery": "Share this code with the shop for local delivery handoff."
+  ,"orderReadyForHandoff": "Order ready"
+  ,"orderMarkedReadyProximity": "Order marked ready — buyer can use the code"
+  ,"confirmHandoff": "Confirm handoff"
+  ,"handoffConfirmed": "Order handed over"
+  ,"confirmReceiptTitle": "Confirm receipt"
+  ,"confirmReceiptBody": "Only confirm once the package is with you and looks right. Payment then goes to the seller."
+  ,"confirmReceiptButton": "Confirm receipt"
+  ,"confirmReceiptDialogTitle": "Confirm you’ve received this order?"
+  ,"confirmReceiptDialogBody": "Confirm you’ve received this order in good condition. Payment will go to the seller and can’t be undone."
+  ,"confirmReceiptYes": "Yes, release payment"
+  ,"confirmReceiptNotYet": "Not yet"
+  ,"confirmReceiptSuccess": "Payment released to the seller. Thank you!"
+  ,"confirmReceiptAlreadyDone": "This order was already confirmed."
+  ,"confirmReceiptNotReady": "This order is not ready to confirm yet."
+  ,"confirmReceiptNotFound": "Order not found."
+  ,"escrowHeldBuyer": "Held safely until you confirm receipt"
+  ,"escrowReleasedBuyer": "Payment sent to seller"
+  ,"awaitingConfirmHint": "Confirm receipt when the package is in your hands to release payment."
+  ,"confirmReceiptDisputeLocked": "Payment is locked while the dispute is open."
+  ,"orderStatusDisputed": "Dispute open"
+  ,"escrowDisputeLocked": "Payment locked while dispute is open"
+  ,"disputeSomethingWrongTitle": "Something wrong?"
+  ,"disputeSomethingWrongBody": "Open a dispute if the item never arrived, is damaged, or doesn’t match the listing. Your payment stays locked and FripCash admin reviews your chat, delivery proof, and payment history."
+  ,"disputeButton": "Dispute"
+  ,"disputeReportLink": "A problem? Report"
+  ,"disputeDialogTitle": "Open a dispute with the seller?"
+  ,"disputeDialogBody": "Tell admin what went wrong on {orderId}. Your payment stays locked while FripCash reviews chat, delivery proof, and payment history."
+  ,"@disputeDialogBody": {"placeholders": {"orderId": {"type": "String"}}}
+  ,"disputeSendToAdmin": "Send to admin"
+  ,"disputeWhatHappened": "What happened?"
+  ,"disputeReasonHint": "e.g. Item arrived damaged, wrong colour, never delivered…"
+  ,"disputeReasonFooter": "This message is sent to FripCash admin with your order."
+  ,"disputeOpenBanner": "Dispute open — your payment stays locked until an admin reviews."
+  ,"disputeYourMessage": "Your message to admin: “{reason}”"
+  ,"@disputeYourMessage": {"placeholders": {"reason": {"type": "String"}}}
+  ,"disputeOpenedToast": "Dispute sent to admin. Payment stays locked."
+  ,"disputeOpenFailed": "Could not open dispute for this order."
+  ,"adminDisputesTitle": "Disputes (admin)"
+  ,"adminDisputesSubtitle": "Mock queue — refund buyer or release to seller"
+  ,"adminDisputesEmpty": "No open disputes right now."
+  ,"adminDisputeRefund": "Refund buyer"
+  ,"adminDisputeRelease": "Release to seller"
+  ,"adminDisputePartial": "Partial refund"
+  ,"adminDisputeResolved": "Dispute resolved."
+  ,"adminDisputeOpenSince": "Opened {when}"
+  ,"@adminDisputeOpenSince": {"placeholders": {"when": {"type": "String"}}}
+  ,"notifDisputeOpenedTitle": "Dispute opened"
+  ,"notifDisputeOpenedBody": "Payment is locked while FripCash reviews your dispute."
+  ,"orderStatusRefunded": "Refunded"
+  ,"escrowRefundedBuyer": "Payment closed · refunded after admin review"
+  ,"refundResolvedBanner": "Refund issued — this dispute was closed by FripCash admin."
+  ,"notifRefundIssuedTitle": "Refund issued"
+  ,"notifRefundIssuedBody": "Admin closed your dispute with a refund."
+  ,"chatEmoji": "Emoji"
+  ,"chatCamera": "Camera"
+  ,"chatGallery": "Gallery"
+  ,"chatPhotoCapturedMock": "Photo captured (mock)."
+  ,"chatPhotoPickedMock": "Photo added from gallery (mock)."
+  ,"chatCardEscrowHeldTitle": "Payment held in escrow"
+  ,"chatCardEscrowHeldBody": "Funds for {orderId} are held safely until the buyer confirms receipt."
+  ,"@chatCardEscrowHeldBody": {"placeholders": {"orderId": {"type": "String"}}}
+  ,"chatCardWaitingTitle": "Waiting for confirmation"
+  ,"chatCardWaitingBody": "Seller is waiting for the buyer to confirm receipt of {orderId}."
+  ,"@chatCardWaitingBody": {"placeholders": {"orderId": {"type": "String"}}}
+  ,"chatCardReleasedTitle": "Payment released"
+  ,"chatCardReleasedBody": "Payment for {orderId} was released to the seller."
+  ,"@chatCardReleasedBody": {"placeholders": {"orderId": {"type": "String"}}}
+  ,"chatCardDisputeTitle": "Dispute locked"
+  ,"chatCardDisputeBody": "Payment for {orderId} is locked while FripCash reviews the dispute."
+  ,"@chatCardDisputeBody": {"placeholders": {"orderId": {"type": "String"}}}
+  ,"chatCardOfdTitle": "Out for delivery"
+  ,"chatCardOfdBody": "{orderId} is on the way. Confirm receipt when the package is with you."
+  ,"@chatCardOfdBody": {"placeholders": {"orderId": {"type": "String"}}}
+  ,"chatCardOrderLabel": "Order {orderId}"
+  ,"@chatCardOrderLabel": {"placeholders": {"orderId": {"type": "String"}}}
+  ,"chatCardReceivedTitle": "RECEIVED YOUR ORDER?"
+  ,"chatCardReceivedBody": "Confirm only after you’ve checked the package for {orderId}{amount}. Payment then goes to the seller."
+  ,"@chatCardReceivedBody": {"placeholders": {"orderId": {"type": "String"}, "amount": {"type": "String"}}}
+  ,"chatCardReceiptDoneTitle": "Receipt confirmed"
+  ,"chatCardReceiptDoneBody": "You confirmed {orderId}. Payment is going to the seller."
+  ,"@chatCardReceiptDoneBody": {"placeholders": {"orderId": {"type": "String"}}}
+  ,"startPreparing": "Start preparing"
+  ,"paymentLocked": "Payment locked"
+  ,"needsActionFilter": "Needs action"
+  ,"disputedFilter": "Disputed"
+  ,"refundedFilter": "Refunded"
+  ,"openOrdersKpi": "Open orders"
+  ,"awaitingConfirmationKpi": "Awaiting confirmation"
+  ,"escrowOnHoldKpi": "On hold"
+  ,"completedOrdersKpi": "Completed"
+  ,"searchOrdersHint": "Search orders, buyers…"
+  ,"disputesBannerTitle": "{count} open dispute(s)"
+  ,"@disputesBannerTitle": {"placeholders": {"count": {"type": "int"}}}
+  ,"viewDisputes": "Review"
+  ,"buyerActiveOrdersKpi": "Active orders"
+  ,"buyerEscrowHeldKpi": "Escrow held"
+  ,"buyerCompletedKpi": "Completed"
+  ,"allPurchasesFilter": "All"
+  ,"compareAtPriceLabel": "Previous price (GNF)"
+  ,"compareAtPriceHint": "Price before discount"
+  ,"compareAtPriceInvalid": "Previous price must be higher than the sale price."
+  ,"discountToggleLabel": "Apply a discount"
+  ,"negotiableToggleLabel": "Accept offers"
+  ,"maxPhotosReached": "Maximum 8 photos per listing."
+  ,"listingSoldOut": "Sold out"
+  ,"listingActive": "Active"
+  ,"sellerActionStartedPreparing": "Preparation started"
+  ,"disputesBannerBody": "Payment stays locked until FripCash admin reviews."
+  ,"draftsTitle": "Drafts"
+  ,"draftsReadyToPost": "Ready to post"
+  ,"draftsIncomplete": "Incomplete"
+  ,"draftsEmptyTitle": "Your drafts live here"
+  ,"draftsEmptyReadySubtitle": "You don't have any drafts ready to post right now."
+  ,"draftsEmptyIncompleteSubtitle": "You don't have any incomplete drafts right now."
+  ,"savedToDrafts": "Saved to drafts"
+  ,"saveToDrafts": "Save to drafts"
+  ,"postListing": "Post listing"
+  ,"copyAListing": "Copy a listing"
+  ,"copyListingEmpty": "You don't have any listings to copy right now"
+  ,"addPhotosTitle": "Add photos"
+  ,"upToPhotos": "Up to {count}"
+  ,"@upToPhotos": {"placeholders": {"count": {"type": "int"}}}
+  ,"viewPhotoGuide": "View photo guide"
+  ,"editPhotos": "Edit photos"
+  ,"addAtLeastOnePhoto": "Please add at least 1 photo or video."
+  ,"infoSection": "Info"
+  ,"addCategoryChip": "+ Category"
+  ,"addBrandChip": "+ Brand"
+  ,"addConditionChip": "+ Condition"
+  ,"addSizeChip": "+ Size"
+  ,"quantityLabel": "Quantity"
+  ,"priceSection": "Price"
+  ,"shippingSection": "Shipping"
+  ,"domesticShippingPrice": "Domestic shipping price"
+  ,"locationChip": "Location: {location}"
+  ,"@locationChip": {"placeholders": {"location": {"type": "String"}}}
+  ,"worldwideShippingOptional": "+ Worldwide (optional)"
+  ,"hashtagsCount": "Hashtags: {count}"
+  ,"@hashtagsCount": {"placeholders": {"count": {"type": "int"}}}
+  ,"yourPriceLabel": "Your price (what you receive)"
+  ,"commissionFeeLabel": "FripCash commission ({percent}%)"
+  ,"@commissionFeeLabel": {"placeholders": {"percent": {"type": "String"}}}
+  ,"buyerSeesPriceLabel": "Price buyers will see"
+  ,"commissionSellerHint": "Buyers only see the total price. The commission is included automatically."
+  ,"listingPreviewTitle": "Listing preview"
+  ,"createNewListing": "Create new listing"
+  ,"listFromTemplate": "List from template"
+  ,"editDraftListings": "Edit draft listings"
+  ,"repostAnItem": "Repost an item"
+  ,"nowWithPhotos": "Now with photos"
+  ,"sellPromoTitle": "Transparent pricing"
+  ,"sellPromoSubtitle": "Set your price — commission is added for buyers (8%, or 5% for neighborhood shops). You keep your full price."
+  ,"niceItsListed": "Nice, it's listed!"
+  ,"itemsListedProgress": "{count}/5 items listed"
+  ,"@itemsListedProgress": {"placeholders": {"count": {"type": "int"}}}
+  ,"listFiveItemsHint": "Nice work. Try listing at least 5 items to help buyers find your shop."
+  ,"boostYourListing": "Boost your listing"
+  ,"boostListingBody": "Promote your item in search to help it sell faster. Pay a 12% boosting fee, only if you sell."
+  ,"enhanceYourListing": "Enhance your listing"
+  ,"enhanceListingBody": "Help buyers find your item by tagging it with extra info."
+  ,"extraInfo": "Extra info"
+  ,"listedBadge": "LISTED"
+  ,"photoTipsTitle": "Photo tips"
+  ,"getCoverShotTitle": "Get a cover shot"
+  ,"getCoverShotBody": "Show off your item by using a clear flat lay or model shot as your cover photo."
+  ,"captureAnglesTitle": "Capture different angles"
+  ,"captureAnglesBody": "Front, back, and side views help buyers understand the fit and shape."
+  ,"showTagsTitle": "Show tags and labels"
+  ,"showTagsBody": "Include brand tags, size labels, and care instructions when you can."
+  ,"showDetailsTitle": "Show the details"
+  ,"showDetailsBody": "Close-ups of fabric, prints, hardware, and any wear help buyers feel confident."
+  ,"profileTabShop": "Shop"
+  ,"profileTabSold": "Sold items"
+  ,"profileTabPurchased": "Purchased"
+  ,"profileTabLikes": "Likes"
+  ,"followersCount": "{count} followers"
+  ,"@followersCount": {"placeholders": {"count": {"type": "int"}}}
+  ,"followingCount": "{count} following"
+  ,"@followingCount": {"placeholders": {"count": {"type": "int"}}}
+  ,"noReviews": "no reviews"
+  ,"shopStats": "Shop Stats"
+  ,"trackProgress": "Track progress"
+  ,"boostingFeesChanging": "Boosting fees are changing"
+  ,"boostingFeesChangingBody": "From March 23, the fee for boosting a listing will be 12%."
+  ,"learnMore": "Learn more"
+  ,"activeListingsCount": "Active ({count} listings)"
+  ,"@activeListingsCount": {"placeholders": {"count": {"type": "int"}}}
+  ,"startSellingBuildShop": "Start selling to build your shop"
+  ,"activeListingsEmpty": "Your active listings will show up here"
+  ,"bulkActions": "Bulk actions"
+  ,"filterToShip": "To ship"
+  ,"filterInTransit": "In transit"
+  ,"filterCancelled": "Cancelled"
+  ,"emptySoldToShip": "Items to ship will show up here"
+  ,"emptySoldInTransit": "Items in transit will show up here"
+  ,"emptySoldCancelled": "Cancelled sales will show up here"
+  ,"emptySoldCompleted": "Completed sales will show up here"
+  ,"emptySoldAll": "Sold items will show up here"
+  ,"emptyPurchasedOrders": "Your orders will show up here"
+  ,"outfits": "Outfits"
+  ,"likedItems": "Liked items"
+  ,"likesInterestHint": "Missed out on a liked item? Tap ‘Show interest’ and we’ll let the new owner know you’d like to buy it. "
+  ,"seeMyLikes": "See my likes"
+  ,"emptyLikesMessage": "Items you like will show up here. Head to Browse to find your next great fit."
+  ,"myAccountTitle": "My account"
+  ,"fripCashBalance": "FripCash Balance"
+  ,"sellMoreSection": "Sell more"
+  ,"boostShop": "Boost Shop"
+  ,"boostShopLocked": "Start selling to unlock Boost Shop"
+  ,"bundles": "Bundles"
+  ,"badgeNew": "New"
+  ,"bundlesSellersOnly": "Bundles are available for sellers"
+  ,"supportSection": "Support"
+  ,"soldItemIssues": "Sold item issues"
+  ,"helpAndSupport": "Help and support"
+  ,"settingsSection": "Settings"
+  ,"accountDetails": "Account details"
+  ,"paymentSettings": "Payment settings"
+  ,"personalization": "Personalization"
+  ,"twoFactorAuth": "Two-factor authentication"
+  ,"twoFactorComingSoon": "2FA coming soon"
+  ,"preferences": "Preferences"
+  ,"privacy": "Privacy"
+  ,"appVersionLabel": "FripCash version {version}"
+  ,"@appVersionLabel": {"placeholders": {"version": {"type": "String"}}}
+  ,"yourFripCashBalance": "Your fripcash balance"
+  ,"pendingAmountGnf": "{amount} GNF pending"
+  ,"@pendingAmountGnf": {"placeholders": {"amount": {"type": "String"}}}
+  ,"noBalanceToWithdraw": "No balance to withdraw"
+  ,"latestTransactions": "Latest transactions"
+  ,"seeAll": "See all"
+  ,"noTransactionsYet": "No transactions yet"
+  ,"noTransactionsHint": "Once you make a sale, your earnings will show up here."
+  ,"cameraLabel": "Camera"
+  ,"sellConditionBrandNew": "Brand new"
+  ,"sellConditionBrandNewDesc": "Unused with original packaging or tags"
+  ,"sellConditionLikeNew": "Like new"
+  ,"sellConditionLikeNewDesc": "Mint condition pre-owned or new without tags"
+  ,"sellConditionExcellent": "Used - Excellent"
+  ,"sellConditionExcellentDesc": "Lightly used but no noticeable flaws"
+  ,"sellConditionGoodUsed": "Used - Good"
+  ,"sellConditionGoodUsedDesc": "Minor flaws or signs of wear, to be noted in the description or photos"
+  ,"sellConditionFair": "Used - Fair"
+  ,"sellConditionFairDesc": "Obvious flaws or signs of wear, to be noted in the description or photos"
+  ,"colorWhite": "White"
+  ,"colorBlack": "Black"
+  ,"colorBrown": "Brown"
+  ,"colorGrey": "Grey"
+  ,"colorBeige": "Beige"
+  ,"colorPink": "Pink"
+  ,"colorPurple": "Purple"
+  ,"colorRed": "Red"
+  ,"colorYellow": "Yellow"
+  ,"colorBlue": "Blue"
+  ,"colorGreen": "Green"
+  ,"colorOrange": "Orange"
+  ,"sellStepCategory": "Category"
+  ,"sellStepPhotos": "Photos"
+  ,"sellStepDetails": "Details"
+  ,"sellStepPrice": "Price"
+  ,"sellStep1CalloutTitle": "Step 1 of 4 — start with the category"
+  ,"sellStep1CalloutBody": "The right department from the start: fewer misfiled listings, more sales."
+  ,"chooseACategory": "Choose a category"
+  ,"sellContinueToPhotos": "Continue to photos"
+  ,"sellContinueToDetails": "Continue to details"
+  ,"sellContinueToPrice": "Continue to price"
+  ,"sellVisualHome": "Home"
+  ,"sellVisualPremium": "Premium"
+  ,"sellSubDresses": "Dresses"
+  ,"sellSubTops": "Tops"
+  ,"sellSubBottoms": "Bottoms"
+  ,"sellSubShoes": "Shoes"
+  ,"sellSubAccessories": "Accessories"
+  ,"sellSubFurniture": "Furniture"
+  ,"sellSubDecor": "Decor"
+  ,"sellSubKitchen": "Kitchen"
+  ,"sellSubPhones": "Phones"
+  ,"sellSubComputers": "Computers"
+  ,"sellSubTvs": "TVs"
+  ,"sellSubOther": "Other"
+  ,"availableForWithdrawal": "Available for withdrawal"
+  ,"withdrawOnOrangeMoney": "Withdraw via Orange Money"
+  ,"escrowBarLabel": "{amount} GNF in escrow · {count} orders"
+  ,"@escrowBarLabel": {
+    "placeholders": {
+      "amount": {"type": "String"},
+      "count": {"type": "int"}
+    }
+  }
+  ,"shopTabBoutique": "Shop"
+  ,"shopTabShipped": "Shipped"
+  ,"ordersToPrepareBefore": "{count} orders to prepare before {time}"
+  ,"@ordersToPrepareBefore": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "time": {"type": "String"}
+    }
+  }
+  ,"courierTipTitle": "The courier comes when you mark “Parcel ready”"
+  ,"courierTipBody": "They are notified automatically. Prepare the parcel before tapping."
+  ,"youReceive": "You receive"
+  ,"noOrdersToPrepare": "No orders to prepare right now."
+  ,"noShippedOrders": "No shipments in progress."
+  ,"noSoldOrdersYet": "No completed sales yet."
+  ,"pickupInStoreTitle": "In-store pickup"
+  ,"sharePickupCode": "Share the code"
+  ,"pickupOrderPaidLine": "Order {id} · already paid"
+  ,"@pickupOrderPaidLine": {"placeholders": {"id": {"type": "String"}}}
+  ,"yourOrderTitle": "Your order"
+  ,"paidViaOrangeMoney": "Paid via Orange Money"
+  ,"pickupAnyoneTitle": "Anyone can collect with this code"
+  ,"pickupAnyoneBody": "Give it to your child or a neighbour. The shopkeeper checks the code and hands over the order."
+  ,"pickupCodeCopied": "Code {code} copied — share it with whoever will pick up."
+  ,"@pickupCodeCopied": {"placeholders": {"code": {"type": "String"}}}
+  ,"proximityPickupOnlyHint": "Neighborhood shops: no delivery. Pay with Orange Money, get a pickup code, and collect in store."
+  ,"sellerPickupCodeHint": "Same code as the customer — verify it before handing over."
+  ,"retryAction": "Retry"
+  ,"catalogLoadError": "Couldn't load data from the server. Please try again."
+  ,"walletLoadError": "Couldn't load your wallet. Please try again."
+  ,"courierUseCourierLogin": "Courier accounts use Courier space. Sign in there instead of the marketplace."
+  ,"approveShopDemo": "Approve shop (demo)"
+  ,"shopApprovedDemo": "Shop approved — you can publish listings."
+  ,"legalTermsBody": "FripCash Terms of Use (demo). By using the app you agree to marketplace rules, escrow release, and anti-circumvention policies. Full legal copy will ship with production."
+  ,"legalPrivacyBody": "FripCash Privacy Policy (demo). We process phone number and order data to operate the marketplace. Full policy will ship with production."
+  ,"searchScreenTitle": "Search"
+  ,"searchScreenHint": "Search products, brands, categories…"
+  ,"bulkActionsHint": "Manage stock and prices from My listings."
+  ,"listingFilterTitle": "Filter listings"
+  ,"showInStockOnly": "In stock only"
+  ,"challengeJoinedDemo": "Challenge tracked for this demo session."
+}

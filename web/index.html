@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Frip Cash">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="frip_cash">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>frip_cash</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #f7f7f5;
+    }
+    #app-loading {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      font-family: system-ui, -apple-system, sans-serif;
+      color: #1a1a1a;
+      z-index: 9999;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+    #app-loading .spinner {
+      width: 28px;
+      height: 28px;
+      border: 3px solid #ddd;
+      border-top-color: #c62828;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    #app-loading .msg {
+      font-size: 14px;
+      opacity: 0.75;
+      text-align: center;
+      max-width: 320px;
+      line-height: 1.4;
+    }
+    #app-loading.error .spinner { display: none; }
+    #app-loading.error .msg { color: #c62828; }
+    #app-loading button {
+      margin-top: 8px;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 999px;
+      background: #c0603c;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div id="app-loading">
+    <div class="spinner"></div>
+    <div class="msg">Loading Frip Cash…<br><small>First visit downloads ~8&nbsp;MB on Wi‑Fi. Please wait up to 2&nbsp;min.</small></div>
+  </div>
+  <script>
+    (function () {
+      var el = document.getElementById('app-loading');
+      var booted = false;
+
+      function setMessage(html, isError) {
+        if (!el || !document.body.contains(el)) return;
+        el.classList.toggle('error', !!isError);
+        el.querySelector('.msg').innerHTML = html;
+        var oldBtn = el.querySelector('button');
+        if (oldBtn) oldBtn.remove();
+      }
+
+      function setError(msg, withRetry) {
+        var html = msg;
+        if (withRetry) {
+          setMessage(html, true);
+          var btn = document.createElement('button');
+          btn.textContent = 'Retry';
+          btn.onclick = function () {
+            sessionStorage.removeItem('fc_load_retry');
+            location.reload();
+          };
+          el.appendChild(btn);
+          return;
+        }
+        setMessage(html, true);
+      }
+
+      function isBenignStartupError(source, message) {
+        var src = source || '';
+        var msg = message || '';
+        return src.indexOf('client.js') !== -1 ||
+            src.indexOf('dwds') !== -1 ||
+            msg.indexOf('removeChild') !== -1 ||
+            msg.indexOf('DebugExtension') !== -1;
+      }
+
+      function isHeavyAsset(url) {
+        if (!url) return false;
+        return url.indexOf('main.dart.js') !== -1 ||
+            url.indexOf('canvaskit') !== -1 ||
+            url.indexOf('.wasm') !== -1;
+      }
+
+      function maybeRetryHeavyAsset(url) {
+        if (!isHeavyAsset(url)) return false;
+        var retries = parseInt(sessionStorage.getItem('fc_load_retry') || '0', 10);
+        if (retries >= 2) return false;
+        sessionStorage.setItem('fc_load_retry', String(retries + 1));
+        setMessage(
+          'Download interrupted on mobile — retrying (' + (retries + 1) + '/2)…<br>' +
+          '<small>Stay on Wi‑Fi and keep this tab open.</small>',
+          false
+        );
+        setTimeout(function () { location.reload(); }, 2500);
+        return true;
+      }
+
+      function hide() {
+        booted = true;
+        sessionStorage.removeItem('fc_load_retry');
+        if (!el || !el.parentNode) return;
+        el.parentNode.removeChild(el);
+        el = null;
+      }
+
+      window.addEventListener('flutter-first-frame', hide);
+
+      function clearServiceWorkers() {
+        if (!('serviceWorker' in navigator)) return Promise.resolve();
+        return navigator.serviceWorker.getRegistrations().then(function (regs) {
+          return Promise.all(regs.map(function (r) { return r.unregister(); }));
+        }).catch(function () {});
+      }
+
+      clearServiceWorkers().then(function () {
+        var s = document.createElement('script');
+        s.src = 'flutter_bootstrap.js';
+        s.async = true;
+        s.onerror = function () {
+          if (maybeRetryHeavyAsset('flutter_bootstrap.js')) return;
+          setError('Could not load the app shell. Check Wi‑Fi and tap Retry.', true);
+        };
+        document.body.appendChild(s);
+      });
+
+      window.setTimeout(function () {
+        if (booted || !el || !document.body.contains(el)) return;
+        setMessage(
+          'Still downloading on mobile — this can take 1–2&nbsp;min on ngrok.<br>' +
+          '<small>Keep Wi‑Fi on and wait, or tap Retry below.</small>',
+          false
+        );
+        var btn = document.createElement('button');
+        btn.textContent = 'Retry';
+        btn.onclick = function () {
+          sessionStorage.removeItem('fc_load_retry');
+          location.reload();
+        };
+        el.appendChild(btn);
+      }, 120000);
+
+      window.addEventListener('error', function (e) {
+        if (isBenignStartupError(e.filename, e.message)) return;
+        var target = e.target;
+        if (target && (target.src || target.href)) {
+          var url = target.src || target.href;
+          if (maybeRetryHeavyAsset(url)) return;
+          if (isHeavyAsset(url)) {
+            setError(
+              'Download failed before the app could start.<br>' +
+              '<small>Use Wi‑Fi, wait, then tap Retry. Desktop Chrome on the same link often works best.</small>',
+              true
+            );
+            return;
+          }
+          setError('Failed to load a required file. Check Wi‑Fi and tap Retry.', true);
+          return;
+        }
+        if (!booted) {
+          setError('Failed to start: ' + (e.message || 'unknown error'), true);
+        }
+      }, true);
+
+      window.addEventListener('unhandledrejection', function (e) {
+        var reason = e.reason;
+        var msg = reason && reason.message ? reason.message : String(reason || 'unknown');
+        if (isBenignStartupError('', msg)) return;
+        if (booted) return;
+        if (msg === 'Load failed' || msg.indexOf('took more than') !== -1) {
+          if (maybeRetryHeavyAsset('main.dart.js')) return;
+          setError(
+            'Download failed (common on mobile ngrok).<br>' +
+            '<small>Use Wi‑Fi, then tap Retry.</small>',
+            true
+          );
+          return;
+        }
+        setError('Failed to start: ' + msg, true);
+      });
+    })();
+  </script>
+</body>
+</html>
